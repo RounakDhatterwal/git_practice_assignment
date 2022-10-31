@@ -6,7 +6,7 @@
   for(let i=str.length-1; i>=0; i--){
   new_str += str[i];
   }
-  if(new_str == string){
+  if(new_str == str){
   console.log("Given String is a plaidrome");
   } else {
          console.log("Given string is not a palindrome");
